@@ -30,6 +30,8 @@
         {
             lbUserName = new Label();
             txtUserName = new TextBox();
+            label1 = new Label();
+            txtMatKhau = new TextBox();
             SuspendLayout();
             // 
             // lbUserName
@@ -37,22 +39,40 @@
             lbUserName.AutoSize = true;
             lbUserName.Location = new Point(92, 118);
             lbUserName.Name = "lbUserName";
-            lbUserName.Size = new Size(82, 20);
+            lbUserName.Size = new Size(112, 20);
             lbUserName.TabIndex = 0;
-            lbUserName.Text = "User Name";
+            lbUserName.Text = "Tên Đăng Nhập";
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(188, 121);
+            txtUserName.Location = new Point(210, 118);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(125, 27);
             txtUserName.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(96, 165);
+            label1.Name = "label1";
+            label1.Size = new Size(72, 20);
+            label1.TabIndex = 2;
+            label1.Text = "Mật Khẩu";
+            // 
+            // txtMatKhau
+            // 
+            txtMatKhau.Location = new Point(210, 165);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(125, 27);
+            txtMatKhau.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1038, 552);
+            Controls.Add(txtMatKhau);
+            Controls.Add(label1);
             Controls.Add(txtUserName);
             Controls.Add(lbUserName);
             Name = "Form1";
@@ -65,5 +85,7 @@
 
         private Label lbUserName;
         private TextBox txtUserName;
+        private Label label1;
+        private TextBox txtMatKhau;
     }
 }
