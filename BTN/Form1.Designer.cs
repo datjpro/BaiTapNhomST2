@@ -58,7 +58,7 @@
             label1.Name = "label1";
             label1.Size = new Size(70, 20);
             label1.TabIndex = 2;
-            label1.Text = "Password";
+            label1.Text = "Mật khẩu";
             // 
             // txtPassword
             // 
@@ -73,7 +73,7 @@
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(94, 29);
             btnLogin.TabIndex = 4;
-            btnLogin.Text = "Login";
+            btnLogin.Text = "Đăng nhập";
             btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
