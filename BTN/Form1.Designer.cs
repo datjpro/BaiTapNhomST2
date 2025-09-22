@@ -30,6 +30,9 @@
         {
             lbUserName = new Label();
             txtUserName = new TextBox();
+            label1 = new Label();
+            txtPassword = new TextBox();
+            btnLogin = new Button();
             SuspendLayout();
             // 
             // lbUserName
@@ -37,22 +40,51 @@
             lbUserName.AutoSize = true;
             lbUserName.Location = new Point(92, 118);
             lbUserName.Name = "lbUserName";
-            lbUserName.Size = new Size(82, 20);
+            lbUserName.Size = new Size(107, 20);
             lbUserName.TabIndex = 0;
-            lbUserName.Text = "User Name";
+            lbUserName.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(188, 121);
+            txtUserName.Location = new Point(210, 118);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(125, 27);
             txtUserName.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(96, 165);
+            label1.Name = "label1";
+            label1.Size = new Size(70, 20);
+            label1.TabIndex = 2;
+            label1.Text = "Mật khẩu";
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(210, 165);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(125, 27);
+            txtPassword.TabIndex = 3;
+            // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(263, 218);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(94, 29);
+            btnLogin.TabIndex = 4;
+            btnLogin.Text = "Đăng nhập";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1038, 552);
+            Controls.Add(btnLogin);
+            Controls.Add(txtPassword);
+            Controls.Add(label1);
             Controls.Add(txtUserName);
             Controls.Add(lbUserName);
             Name = "Form1";
@@ -65,5 +97,8 @@
 
         private Label lbUserName;
         private TextBox txtUserName;
+        private Label label1;
+        private TextBox txtPassword;
+        private Button btnLogin;
     }
 }
