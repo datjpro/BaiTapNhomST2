@@ -31,7 +31,7 @@
             lbUserName = new Label();
             txtUserName = new TextBox();
             label1 = new Label();
-            txtMatKhau = new TextBox();
+            txtPassword = new TextBox();
             SuspendLayout();
             // 
             // lbUserName
@@ -55,23 +55,23 @@
             label1.AutoSize = true;
             label1.Location = new Point(96, 165);
             label1.Name = "label1";
-            label1.Size = new Size(72, 20);
+            label1.Size = new Size(70, 20);
             label1.TabIndex = 2;
-            label1.Text = "Mật Khẩu";
+            label1.Text = "Password";
             // 
-            // txtMatKhau
+            // txtPassword
             // 
-            txtMatKhau.Location = new Point(210, 165);
-            txtMatKhau.Name = "txtMatKhau";
-            txtMatKhau.Size = new Size(125, 27);
-            txtMatKhau.TabIndex = 3;
+            txtPassword.Location = new Point(210, 165);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(125, 27);
+            txtPassword.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1038, 552);
-            Controls.Add(txtMatKhau);
+            Controls.Add(txtPassword);
             Controls.Add(label1);
             Controls.Add(txtUserName);
             Controls.Add(lbUserName);
@@ -86,6 +86,6 @@
         private Label lbUserName;
         private TextBox txtUserName;
         private Label label1;
-        private TextBox txtMatKhau;
+        private TextBox txtPassword;
     }
 }
