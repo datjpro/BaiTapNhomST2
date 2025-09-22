@@ -39,9 +39,9 @@
             lbUserName.AutoSize = true;
             lbUserName.Location = new Point(92, 118);
             lbUserName.Name = "lbUserName";
-            lbUserName.Size = new Size(112, 20);
+            lbUserName.Size = new Size(107, 20);
             lbUserName.TabIndex = 0;
-            lbUserName.Text = "Tên Đăng Nhập";
+            lbUserName.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
