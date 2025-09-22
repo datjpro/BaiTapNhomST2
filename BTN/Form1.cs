@@ -15,7 +15,7 @@
         private void btnLogin_Click(object sender, EventArgs e)
         {
             // Kiểm tra thông tin đăng nhập
-            if (txtUserName.Text == "admin" && txtPassword.Text == "admin")
+            if (txtUserName.Text == "admin" && txtPassword.Text == "123456")
             {
                 // Đăng nhập thành công - mở form mới
                 frmLoginSucces loginSuccessForm = new frmLoginSucces();
